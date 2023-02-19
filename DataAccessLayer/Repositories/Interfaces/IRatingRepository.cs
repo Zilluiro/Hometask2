@@ -2,7 +2,7 @@
 
 namespace DataAccessLayer.Repositories.Interfaces
 {
-    public interface IBookRepository: IGenericRepository<Book>
+    public interface IRatingRepository : IGenericRepository<Rating>
     {
     }
 }

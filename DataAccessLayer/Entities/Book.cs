@@ -9,7 +9,6 @@ namespace DataAccessLayer.Entities
         public string Title { get; set; } = string.Empty;
 
         [Required]
-        [MaxLength(256)]
         public string Cover { get; set; } = string.Empty;
 
         [Required]
